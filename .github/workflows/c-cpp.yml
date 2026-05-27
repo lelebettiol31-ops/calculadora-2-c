@@ -14,6 +14,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: compile
-      run: gcc test_calculadora.c -o test_calculadora
+      run: gcc teste_calculadora.c -o teste_calculadora
     - name: execute
-      run: ./test_calculadora
+      run: ./teste_calculadora
